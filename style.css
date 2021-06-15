@@ -45,7 +45,7 @@ Ul li a
     display: block;
     width: 210px;
     height: 80px;
-    background: #fff;
+    background: rgb(160, 74, 74);
     text-align: left;
     padding-left: 20px;
     transform: rotate(-30deg) skewX(25deg) translate(0,0);
@@ -59,7 +59,7 @@ ul li a:before{
     left: -20px;
     height: 100%;
     width: 20px;
-    background: #b1b1b1;
+    background: rgb(124, 119, 119);
     transform: 0.5;
     transform: rotate(0deg) skewY(-45deg);
 }
@@ -93,4 +93,7 @@ ul li:hover a:before{
 }
 ul li:hover a:after{
     background: #e66a5a;
+}
+body {
+    background-color: rgb(92, 86, 81);
 }
